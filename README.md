@@ -23,7 +23,10 @@ This repository provides scripts and Talon command files for playing back recent
 
 ## Usage
 
-Once installed, Talon commands defined in `most_recent_command_playback.talon` will be available. These commands allow you to play back recent .flac files captured by Talon, useful for reviewing recent voice input or debugging custom commands.
+After installation, you can use the following Talon voice commands:
+
+- **"playback now"**: Plays back the 5 most recent .flac recordings captured by Talon.
+- **"playback <number_small>"**: Plays back the specified number of recent .flac recordings (replace `<number_small>` with a number, e.g., "playback 3").
 
 ---
 
