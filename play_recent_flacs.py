@@ -1,7 +1,7 @@
-from find_recent_folder import find_most_recent_yyyymm_folder
-from get_recent_flacs import get_most_recent_flac_files
-from check_ffplay import check_ffplay_available
-from play_flacs import play_flac_files
+from utils.find_recent_folder import find_most_recent_yyyymm_folder
+from utils.get_recent_flacs import get_most_recent_flac_files
+from utils.check_ffplay import check_ffplay_available
+from utils.play_flacs import play_flac_files
 import sys
 
 RECORDINGS_DIR = "~/.talon/recordings"
