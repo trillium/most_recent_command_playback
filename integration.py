@@ -3,10 +3,10 @@ from talon import Module, actions, app
 from pathlib import Path
 import os
 
-from utils.find_recent_folder import find_most_recent_yyyymm_folder
-from utils.get_recent_flacs import get_most_recent_flac_files
-from utils.check_ffplay import check_ffplay_available
-from utils.play_flacs import play_flac_files
+from .utils.find_recent_folder import find_most_recent_yyyymm_folder
+from .utils.get_recent_flacs import get_most_recent_flac_files
+from .utils.check_ffplay import check_ffplay_available
+from .utils.play_flacs import play_flac_files
 
 mod = Module()
 
